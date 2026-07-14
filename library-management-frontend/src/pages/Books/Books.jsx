@@ -16,9 +16,7 @@ function Books() {
     const [loading, setLoading] = useState(true);
     const [keyword, setKeyword] = useState("");
 
-    // =========================
-    // Fetch Books
-    // =========================
+    
 
     const fetchBooks = async () => {
 
@@ -56,10 +54,7 @@ function Books() {
 
     }, []);
 
-    // =========================
-    // Search Books
-    // =========================
-
+    
     const handleSearch = async (e) => {
 
         const value = e.target.value;
@@ -98,9 +93,7 @@ function Books() {
 
     };
 
-    // =========================
-    // Delete Book
-    // =========================
+    
 
     const handleDelete = async (bookId) => {
 
