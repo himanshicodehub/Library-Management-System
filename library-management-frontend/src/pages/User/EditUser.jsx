@@ -173,7 +173,7 @@ function EditUser() {
 
                             <div className="row">
 
-                                {/* Name */}
+                               
 
                                 <div className="col-md-6 mb-3">
 
@@ -217,7 +217,7 @@ function EditUser() {
 
                                 </div>
 
-                                {/* Phone */}
+                               
 
                                 <div className="col-md-6 mb-3">
 
@@ -260,7 +260,7 @@ function EditUser() {
                                     </small>
 
                                 </div>
-                                                                {/* Department */}
+                                                               
 
                                 <div className="col-md-6 mb-3">
 
@@ -277,7 +277,7 @@ function EditUser() {
 
                                 </div>
 
-                                {/* Profile Image */}
+                                
 
                                 <div className="col-md-6 mb-3">
 
@@ -294,7 +294,7 @@ function EditUser() {
 
                                 </div>
 
-                                {/* Address */}
+                                
 
                                 <div className="col-12 mb-3">
 
