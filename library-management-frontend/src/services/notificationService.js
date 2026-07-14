@@ -1,9 +1,6 @@
 import api from "../api/axios";
 
-// =====================================
-// Admin & Librarian - All Notifications
-// =====================================
-
+/
 export const getNotifications = async() => {
 
     const response = await api.get(
@@ -15,9 +12,7 @@ export const getNotifications = async() => {
 };
 
 
-// =====================================
-// Student Notifications
-// =====================================
+
 
 export const getStudentNotifications = async(
     studentId
@@ -32,9 +27,7 @@ export const getStudentNotifications = async(
 };
 
 
-// =====================================
-// Get Single Notification
-// =====================================
+
 
 export const getNotification = async(
     notificationId
@@ -49,9 +42,7 @@ export const getNotification = async(
 };
 
 
-// =====================================
-// Mark As Read
-// =====================================
+
 
 export const markAsRead = async(
     notificationId
@@ -66,9 +57,6 @@ export const markAsRead = async(
 };
 
 
-// =====================================
-// Delete Notification
-// =====================================
 
 export const deleteNotification = async(
     notificationId
