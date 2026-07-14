@@ -1,8 +1,6 @@
 import api from "../api/axios";
 
-// =====================================
-// Get All Reservations
-// =====================================
+
 
 export const getReservations = async() => {
 
@@ -15,9 +13,7 @@ export const getReservations = async() => {
 };
 
 
-// =====================================
-// Get Single Reservation
-// =====================================
+
 
 export const getReservation = async(
     reservationId
@@ -32,9 +28,6 @@ export const getReservation = async(
 };
 
 
-// =====================================
-// Add Reservation
-// =====================================
 
 export const createReservation = async(
     data
@@ -50,9 +43,7 @@ export const createReservation = async(
 };
 
 
-// =====================================
-// Update Reservation
-// =====================================
+
 
 export const updateReservation = async(
     reservationId,
@@ -69,9 +60,7 @@ export const updateReservation = async(
 };
 
 
-// =====================================
-// Delete Reservation
-// =====================================
+
 
 export const deleteReservation = async(
     reservationId
@@ -86,10 +75,6 @@ export const deleteReservation = async(
 };
 
 
-// =====================================
-// Search Reservation
-// =====================================
-
 export const searchReservation = async(
     keyword
 ) => {
@@ -103,9 +88,6 @@ export const searchReservation = async(
 };
 
 
-// =====================================
-// Student Reservations
-// =====================================
 
 export const getStudentReservations = async(
     studentId
