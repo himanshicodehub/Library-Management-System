@@ -16,7 +16,7 @@ function ProtectedRoute({
 
     );
 
-    // Not Logged In
+    
 
     if (!token || !user) {
 
@@ -24,7 +24,7 @@ function ProtectedRoute({
 
     }
 
-    // Invalid Role
+   
 
     if (
 
