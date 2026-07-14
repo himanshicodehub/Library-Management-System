@@ -47,7 +47,7 @@ function Sidebar({ isOpen }) {
 
             <ul className="sidebar-menu">
 
-                {/* Dashboard */}
+                
 
                 <li>
 
@@ -61,7 +61,7 @@ function Sidebar({ isOpen }) {
 
                 </li>
 
-                {/* Admin & Librarian */}
+                
 
                 {(user?.role === "Admin" ||
                     user?.role === "Librarian") && (
@@ -120,8 +120,7 @@ function Sidebar({ isOpen }) {
 
                 )}
 
-                {/* Admin Only */}
-
+                
                 {user?.role === "Admin" && (
 
                     <>
@@ -166,7 +165,7 @@ function Sidebar({ isOpen }) {
 
                 )}
 
-                {/* Student */}
+                
 
                 {user?.role === "Student" && (
 
@@ -212,7 +211,7 @@ function Sidebar({ isOpen }) {
 
                 )}
 
-                {/* Profile */}
+                
 
                 <li>
 
@@ -226,7 +225,7 @@ function Sidebar({ isOpen }) {
 
                 </li>
 
-                {/* Logout */}
+             
 
                 <li>
 
