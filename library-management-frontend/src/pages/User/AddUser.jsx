@@ -107,7 +107,7 @@ function AddUser() {
                         >
 
                             <div className="row">
-                                {/* User ID */}
+                                
 
                             <div className="col-md-6 mb-3">
 
@@ -141,7 +141,6 @@ function AddUser() {
 
                             </div>
 
-                            {/* Name */}
 
                             <div className="col-md-6 mb-3">
 
@@ -175,7 +174,7 @@ function AddUser() {
 
                             </div>
 
-                            {/* Email */}
+                           
 
                             <div className="col-md-6 mb-3">
 
@@ -209,8 +208,7 @@ function AddUser() {
 
                             </div>
 
-                            {/* Phone */}
-
+                            
                             <div className="col-md-6 mb-3">
 
                                 <label className="form-label">
@@ -251,7 +249,7 @@ function AddUser() {
 
                             </div>
 
-                            {/* Password */}
+                           
 
                             <div className="col-md-6 mb-3">
 
@@ -292,7 +290,7 @@ function AddUser() {
                                 </small>
 
                             </div>
-                            {/* Department */}
+                            
 
                             <div className="col-md-6 mb-3">
 
@@ -316,7 +314,7 @@ function AddUser() {
 
                             </div>
 
-                            {/* Role */}
+                           
 
                             <div className="col-md-6 mb-3">
 
@@ -356,7 +354,7 @@ function AddUser() {
 
                             </div>
 
-                            {/* Address */}
+                            
 
                             <div className="col-12 mb-3">
 
@@ -380,7 +378,7 @@ function AddUser() {
 
                             </div>
 
-                            {/* Profile Image */}
+                            
 
                             <div className="col-md-6 mb-3">
 
@@ -404,7 +402,7 @@ function AddUser() {
 
                             </div>
 
-                            {/* Status */}
+                           
 
                             <div className="col-md-6 mb-3">
 
