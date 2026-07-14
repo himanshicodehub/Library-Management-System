@@ -24,7 +24,7 @@ function ReserveBook() {
 
             const response = await getBooks();
 
-            // Only books that are out of stock
+           
             const unavailableBooks = response.data.filter(
                 (book) => book.available_quantity === 0
             );
