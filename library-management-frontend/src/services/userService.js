@@ -1,17 +1,12 @@
 import api from "../api/axios";
 
-/* ===========================
-   Authentication
-=========================== */
+
 
 export const loginUser = async(data) => {
     const response = await api.post("/users/login", data);
     return response.data;
 };
 
-/* ===========================
-   Users
-=========================== */
 
 export const createUser = async(data) => {
     const response = await api.post("/users", data);
@@ -33,9 +28,6 @@ export const getUsersByRole = async(role) => {
     return response.data;
 };
 
-/* ===========================
-   Admin Edit User
-=========================== */
 
 export const updateUser = async(userId, data) => {
     const response = await api.put(
@@ -46,9 +38,7 @@ export const updateUser = async(userId, data) => {
     return response.data;
 };
 
-/* ===========================
-   Profile
-=========================== */
+
 
 export const getProfile = async(userId) => {
     const response = await api.get(
@@ -72,9 +62,7 @@ export const updateProfile = async(
 
 };
 
-/* ===========================
-   Password
-=========================== */
+
 
 export const changePassword = async(
     userId,
@@ -102,9 +90,6 @@ export const resetPassword = async(
 
 };
 
-/* ===========================
-   Status
-=========================== */
 
 export const activateUser = async(
     userId
