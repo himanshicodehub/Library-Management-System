@@ -86,7 +86,7 @@ function AdminDashboard() {
 
                 </h2>
 
-                {/* Statistics */}
+                
 
                 <div className="row">
 
@@ -156,11 +156,11 @@ function AdminDashboard() {
 
                 </div>
 
-                {/* Quick Actions */}
+                
 
                 <QuickActions />
 
-                {/* Recent Books & Students */}
+                
 
                 <div className="row mt-4">
 
@@ -182,8 +182,7 @@ function AdminDashboard() {
 
                 </div>
 
-                {/* Recent Issues & Notifications */}
-
+                
                 <div className="row mt-4">
 
                     <div className="col-lg-8">
