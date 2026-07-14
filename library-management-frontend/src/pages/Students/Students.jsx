@@ -16,9 +16,7 @@ function Students() {
     const [loading, setLoading] = useState(true);
     const [keyword, setKeyword] = useState("");
 
-    // ==========================
-    // Fetch Students
-    // ==========================
+    
 
     const fetchStudents = async () => {
 
@@ -50,9 +48,7 @@ function Students() {
 
     }, []);
 
-    // ==========================
-    // Search Student
-    // ==========================
+   
 
     const handleSearch = async (e) => {
 
@@ -84,9 +80,7 @@ function Students() {
 
     };
 
-    // ==========================
-    // Delete Student
-    // ==========================
+   
 
     const handleDelete = async (studentId) => {
 
