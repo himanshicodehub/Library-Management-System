@@ -47,7 +47,7 @@ function IssueBooks() {
 
     }, []);
 
-    // Search
+   
 
     const handleSearch = async (e) => {
 
@@ -79,7 +79,7 @@ function IssueBooks() {
 
     };
 
-    // Delete
+    
 
     const handleDelete = async (issueId) => {
 
@@ -111,7 +111,7 @@ function IssueBooks() {
 
     };
 
-    // Return Book
+    
 
     const handleReturn = async (studentId, bookId) => {
 
