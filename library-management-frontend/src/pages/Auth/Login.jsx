@@ -22,10 +22,7 @@ function Login() {
 
     const [loading, setLoading] = useState(false);
 
-    // ==========================
-    // Already Logged In
-    // ==========================
-
+    
     useEffect(() => {
 
         const token = localStorage.getItem("token");
@@ -38,9 +35,7 @@ function Login() {
 
     }, [navigate]);
 
-    // ==========================
-    // Handle Input
-    // ==========================
+    
 
     const handleChange = (e) => {
 
@@ -54,9 +49,7 @@ function Login() {
 
     };
 
-    // ==========================
-    // Login
-    // ==========================
+   
 
     const handleSubmit = async (e) => {
 
@@ -104,7 +97,7 @@ function Login() {
 
             }
 
-            // Save Login Data
+            
 
             localStorage.setItem(
 
