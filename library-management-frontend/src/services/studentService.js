@@ -20,9 +20,6 @@ export const deleteStudent = (id) =>
 
 export const searchStudent = (keyword) =>
     api.get(`/students/search/${keyword}`);
-// =========================
-// Student My Books
-// =========================
 
 export const getMyBooks = async(studentId) => {
 
@@ -35,9 +32,7 @@ export const getMyBooks = async(studentId) => {
 };
 
 
-// =========================
-// Student Reservations
-// =========================
+
 
 export const getMyReservations = async(studentId) => {
 
