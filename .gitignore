@@ -1,0 +1,60 @@
+# ==========================================
+# FastAPI / Python Dependencies & Environment
+# ==========================================
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+pyenv/
+
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables (Sensitive Data)
+.env
+.env.*
+!.env.example
+
+# Database (SQLite / Local DBs)
+*.db
+*.sqlite3
+
+# ==========================================
+# React / Node Dependencies & Build
+# ==========================================
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production build outputs
+dist/
+build/
+out/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db

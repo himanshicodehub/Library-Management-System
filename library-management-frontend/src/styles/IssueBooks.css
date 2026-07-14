@@ -1,0 +1,22 @@
+.issue-table td {
+    vertical-align: middle;
+}
+
+.badge-issued {
+    background: #ffc107;
+    color: #000;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.badge-returned {
+    background: #198754;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.fine {
+    color: #dc3545;
+    font-weight: 600;
+}

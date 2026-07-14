@@ -1,0 +1,43 @@
+body {
+    background: #f4f7fc;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.page-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+}
+
+.table {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #212529;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.search-box {
+    max-width: 500px;
+}

@@ -1,0 +1,126 @@
+/* ===========================
+   Sidebar
+=========================== */
+
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background: #1f2937;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: .3s;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.sidebar.collapsed {
+    width: 80px;
+}
+
+.sidebar-logo {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    background: #111827;
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+
+.sidebar-logo svg {
+    color: #f59e0b;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    width: 100%;
+}
+
+.sidebar-menu a,
+.logout-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 14px 25px;
+    text-decoration: none;
+    color: #d1d5db;
+    transition: .3s;
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.sidebar-menu a svg,
+.logout-button svg {
+    font-size: 20px;
+    min-width: 20px;
+}
+
+.sidebar-menu a:hover,
+.logout-button:hover {
+    background: #374151;
+    color: #fff;
+}
+
+.sidebar-menu .active {
+    background: #f59e0b;
+    color: #fff;
+    border-left: 5px solid #fff;
+}
+
+.logout-button {
+    color: #ef4444;
+}
+
+.logout-button:hover {
+    background: #7f1d1d;
+    color: #fff;
+}
+
+.sidebar.collapsed span {
+    display: none;
+}
+
+.sidebar.collapsed .sidebar-logo span {
+    display: none;
+}
+
+.sidebar.collapsed .sidebar-menu a,
+.sidebar.collapsed .logout-button {
+    justify-content: center;
+    padding: 18px;
+}
+
+.sidebar.collapsed .sidebar-menu a svg,
+.sidebar.collapsed .logout-button svg {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4b5563;
+    border-radius: 10px;
+}
+
+@media(max-width:992px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    .sidebar.open {
+        transform: translateX(0);
+    }
+}

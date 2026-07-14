@@ -1,0 +1,23 @@
+.form-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+.form-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-control {
+    height: 48px;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.btn-save {
+    width: 150px;
+}

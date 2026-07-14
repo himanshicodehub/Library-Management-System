@@ -1,0 +1,29 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+    background: #f4f6f9;
+}
+
+.main-content {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    transition: .3s;
+}
+
+.main-content.expanded {
+    margin-left: 80px;
+    width: calc(100% - 80px);
+}
+
+.page-content {
+    padding: 25px;
+    min-height: calc(100vh - 70px);
+}
+
+@media(max-width:992px) {
+    .main-content,
+    .main-content.expanded {
+        margin-left: 0;
+        width: 100%;
+    }
+}

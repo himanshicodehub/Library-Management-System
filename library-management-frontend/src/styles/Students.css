@@ -1,0 +1,9 @@
+.student-table td {
+    vertical-align: middle;
+}
+
+.student-table img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}

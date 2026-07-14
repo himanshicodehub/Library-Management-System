@@ -1,0 +1,23 @@
+.book-table .btn {
+    min-width: 70px;
+}
+
+.book-table td {
+    vertical-align: middle;
+}
+
+.stock-badge {
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.out-stock {
+    background: #dc3545;
+    color: white;
+}
+
+.in-stock {
+    background: #198754;
+    color: white;
+}
