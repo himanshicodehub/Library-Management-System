@@ -131,7 +131,7 @@ function AddIssueBook() {
 
                         <form onSubmit={handleSubmit}>
 
-                            {/* Student */}
+                           
 
                             <div className="mb-3">
 
@@ -185,7 +185,7 @@ function AddIssueBook() {
 
                             </div>
 
-                            {/* Book */}
+                            
 
                             <div className="mb-3">
 
@@ -245,7 +245,7 @@ function AddIssueBook() {
 
                             </div>
 
-                            {/* Issue Date */}
+                           
 
                             <div className="mb-3">
 
@@ -273,7 +273,7 @@ function AddIssueBook() {
 
                             </div>
 
-                            {/* Due Date */}
+                            
 
                             <div className="mb-3">
 
